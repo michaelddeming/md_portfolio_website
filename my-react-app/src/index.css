@@ -1,0 +1,61 @@
+
+body {
+  padding-left: 2%;
+  padding-right: 2%;
+  color: black;
+  background-color: hsl(0, 0%, 90%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.header-title {
+  font-size: 3rem;
+
+}
+
+
+/* HEADER NAV */
+
+.header-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+ 
+}
+
+/* HEADER NAV LIST ITEMS */
+.header-nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+
+.job, .degree{
+  padding-left: 2rem;
+  margin-bottom: 35px ;
+}
+
+.degree, .degree-institution {
+  padding-left: 2rem;
+}
+
+.job, .job-title, .job-timeframe {
+  padding-left: 2rem;
+}
+
+.job ul, .degree ul {
+  padding-left: 4rem;
+}
