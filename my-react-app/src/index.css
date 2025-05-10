@@ -59,3 +59,23 @@ body {
 .job ul, .degree ul {
   padding-left: 4rem;
 }
+
+.index-content-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+
+}
+
+.index-content-right {
+
+
+  
+}
+.index-content-left {
+
+
+  
+}
