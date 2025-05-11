@@ -1,7 +1,7 @@
 
 body {
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 7%;
+  padding-right: 7%;
   color: black;
   background-color: hsl(0, 0%, 90%);
   font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 3%;
 
 }
 
@@ -30,7 +31,7 @@ body {
   align-items: center;
   justify-content: center;
   list-style: none;
-  gap: 10px;
+  gap: 20px;
  
 }
 
@@ -39,20 +40,56 @@ body {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  font-size: 25px;
+}
+
+
+/* Content Main */
+
+.index-content-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2em;
+
+  
+}
+
+/* Content Left */
+
+.index-content-left {
+
+
+
+}
+
+/* Content Right */
+.index-content-right {
+
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid hsl(0, 0, 80%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 15px rgb(101, 101, 101);
+
 }
 
 
 
 .job, .degree{
   padding-left: 2rem;
-  margin-bottom: 35px ;
 }
 
 .degree, .degree-institution {
   padding-left: 2rem;
 }
 
-.job, .job-title, .job-timeframe {
+.job-title, .job-timeframe {
   padding-left: 2rem;
 }
 
@@ -60,12 +97,19 @@ body {
   padding-left: 4rem;
 }
 
-.index-content-main {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2em;
 
+.git-hub button {
+  padding: "5px";
+  border-radius: "5px";
+  cursor: "pointer";
+  background-color: #2EA44F;
 }
+
+
+
+.git-hub-cal {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}  
 

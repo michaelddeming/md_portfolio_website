@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 
+import ( Link)
 function Header(){
 
     const headerTitle = "MICHAEL DEMING";
@@ -13,19 +15,24 @@ function Header(){
         <nav className="header-nav">
                 <ul>
                     <li>
-                        <a href="about.html">{navOption1}</a>
-                    </li>
-                    <li >
-                        <a href="blog.html">{navOption2}</a>
+                        <Link to="/">HOME</Link>
+                        
                     </li>
                     <li>
-                        <a href="projects.html">{navOption3}
-                        </a>
+                        <Link to="/about">ABOUT</Link>
+                        
                     </li>
                     <li>
-                        <a href="community.html">{navOption4}
-                        </a>
+                        <Link to="/blog">BLOG</Link>
+                        
                     </li>
+                    <li>
+                        <Link to="/projects">PROJECTS</Link>
+                    </li>
+                    <li>
+                        <Link to="/community">COMMUNITY</Link>
+                    </li>
+                   
                 </ul>
             </nav>
     </div>
