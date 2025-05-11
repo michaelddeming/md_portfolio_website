@@ -2,11 +2,13 @@ import Degree from "./Degree"
 
 function Education(props){
 
-    return(<>
-    <h2>EDUCATION</h2>
-    <div>{props.children}</div>
+    return(
+    <>
+    <div className="education">
+        <h2>EDUCATION</h2>
+        {props.children}
+    </div>
     </>
-        
     );
 }
 

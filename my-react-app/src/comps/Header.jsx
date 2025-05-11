@@ -10,7 +10,9 @@ function Header(){
     const navOption4 = "COMMUNITY";
     return (
     <div className="header">
-        <h1 className="header-title">{headerTitle}</h1>
+        
+            <Link to="/" style={{color:"black", textDecoration:"none"}}><h1 className="header-title">{headerTitle}</h1></Link>
+        
 
         <nav className="header-nav">
                 <ul>

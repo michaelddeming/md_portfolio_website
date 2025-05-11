@@ -3,7 +3,7 @@ body {
   padding-left: 7%;
   padding-right: 7%;
   color: black;
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsl(44, 10%, 78%);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -50,24 +50,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 2em;
-
-  
+  font-size: 1.3em;
 }
 
-/* Content Left */
-
-.index-content-left {
-
-
-
-}
-
-/* Content Right */
-.index-content-right {
-
-
-}
 
 .card {
   display: flex;
@@ -75,34 +60,31 @@ body {
   border: 1px solid hsl(0, 0, 80%);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 7px 7px 15px rgb(101, 101, 101);
+  box-shadow: 7px 7px 7px rgb(153, 153, 153);
+  margin-bottom: 2em;
+  background-color:hsl(48, 19%, 90%);
 
 }
 
 
-
-.job, .degree{
-  padding-left: 2rem;
+/* WORK EXPERIENCE AND EDUCATION */
+.job, .degree {
+ padding-left: 1.5em;
 }
 
-.degree, .degree-institution {
-  padding-left: 2rem;
-}
-
-.job-title, .job-timeframe {
-  padding-left: 2rem;
-}
-
-.job ul, .degree ul {
-  padding-left: 4rem;
+.position, .degree-institution {
+  padding-left: 1.5em;
 }
 
 
+
+/* GITHUB */
 .git-hub button {
-  padding: "5px";
-  border-radius: "5px";
-  cursor: "pointer";
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
   background-color: #2EA44F;
+  font-size: 15px;
 }
 
 
@@ -113,3 +95,52 @@ body {
     border-radius: 10px;
 }  
 
+
+
+/* ABOUT */
+
+.about-content-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content-main p {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* PROJECTS */
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-video {
+  aspect-ratio: 16/9;
+
+}
+@media (max-width: 800px) {
+    .project {
+      overflow: visible;
+      word-wrap: break-word;
+      word-break: break-word;
+      width: 400px;
+    }
+    .project-video {
+      width: 400px;
+    }
+    
+  }
