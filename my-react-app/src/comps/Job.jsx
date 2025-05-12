@@ -2,10 +2,10 @@
 function Job(props){
     return(
 
-        <div className="job">
+        <div className="job">   
             <h3>{props.company_name}</h3>
             {props.children}
         </div>                
     );
 }
-export default Job1
+export default Job;
