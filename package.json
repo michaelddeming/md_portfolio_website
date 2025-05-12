@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "react-github-calendar": "^4.5.7"
+    "react-github-calendar": "^4.5.7",
+    "react-icons": "^5.5.0"
   }
 }

@@ -16,22 +16,22 @@ function Header(){
         <nav className="header-nav">
                 <ul>
                     <li>
-                        <Link to="/">HOME</Link>
+                        <Link to="/" className="header-page">HOME</Link>
                         
                     </li>
                     <li>
-                        <Link to="/about">ABOUT</Link>
+                        <Link to="/about" className="header-page">ABOUT</Link>
                         
                     </li>
                     <li>
-                        <Link to="/blog">BLOG</Link>
+                        <Link to="/blog" className="header-page">BLOG</Link>
                         
                     </li>
                     <li>
-                        <Link to="/projects">PROJECTS</Link>
+                        <Link to="/projects" className="header-page">PROJECTS</Link>
                     </li>
                     <li>
-                        <Link to="/community">COMMUNITY</Link>
+                        <Link to="/community" className="header-page">COMMUNITY</Link>
                     </li>
                    
                 </ul>
