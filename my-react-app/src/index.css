@@ -64,12 +64,17 @@ body {
   margin-bottom: 2em;
   background-color:hsl(48, 19%, 90%);
   justify-content: center;
-  align-items: center;
 
 }
 
 
+
 /* WORK EXPERIENCE AND EDUCATION */
+.work-experience, .education {
+  width: 800px;
+  margin: 25px;
+}
+
 .job, .degree {
  padding-left: 1.5em;
 }
@@ -78,6 +83,9 @@ body {
   padding-left: 1.5em;
 }
 
+.position li, .degree-institution li {
+  margin: 10px;
+}
 
 
 /* GITHUB */
@@ -132,7 +140,7 @@ body {
   flex-direction: column;
   word-wrap: break-word;
   justify-content: space-between;
-  width: 500px;
+  width: 450px;
   height: 500px;
 }
 
@@ -158,6 +166,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  gap: 50px;
 
 }
 
@@ -168,6 +177,7 @@ body {
   align-items: center;
   width: 350px;
   padding: 20px;
+
   }
 
 .discord .discord-logo, .youtube .youtube-logo, .linkedin .linkedin-logo {
@@ -238,4 +248,12 @@ button:hover {
 
 .header-page:hover, .header-title:hover {
   color: rgb(97, 97, 97);
+}
+
+
+/* BLOG */
+
+.blog-post {
+  display: flex;
+  flex-direction: column;
 }
