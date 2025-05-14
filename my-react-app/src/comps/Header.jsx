@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import React, {useState} from "react";
 
 function Header(){
 
@@ -7,31 +8,46 @@ function Header(){
     const navOption2 = "BLOG";
     const navOption3 = "PROJECTS";
     const navOption4 = "COMMUNITY";
+
+
+   
+
+
     return (
     <div className="header">
         
-            <Link to="/" style={{color:"black", textDecoration:"none"}}><h1 className="header-title">{headerTitle}</h1></Link>
+            <NavLink to="/" style={{color:"black", textDecoration:"none"}}><h1 className="header-title">{headerTitle}</h1></NavLink>
         
 
         <nav className="header-nav">
                 <ul>
                     <li>
-                        <Link to="/" className="header-page">HOME</Link>
+                        <NavLink to="/" end className={({ isActive }) =>
+                `header-page ${isActive ? "active" : ""}`
+              }>HOME</NavLink>
                         
                     </li>
                     <li>
-                        <Link to="/about" className="header-page">ABOUT</Link>
+                        <NavLink to="/about" className={({ isActive }) =>
+                `header-page ${isActive ? "active" : ""}`
+              }>ABOUT</NavLink>
                         
                     </li>
                     <li>
-                        <Link to="/blog" className="header-page">BLOG</Link>
+                        <NavLink name="blog" to="/blog" className={({ isActive }) =>
+                `header-page ${isActive ? "active" : ""}`
+              }>BLOG</NavLink>
                         
                     </li>
                     <li>
-                        <Link to="/projects" className="header-page">PROJECTS</Link>
+                        <NavLink name="projects" to="/projects" className={({ isActive }) =>
+                `header-page ${isActive ? "active" : ""}`
+              }>PROJECTS</NavLink>
                     </li>
                     <li>
-                        <Link to="/community" className="header-page">COMMUNITY</Link>
+                        <NavLink name="community" to="/community" className={({ isActive }) =>
+                `header-page ${isActive ? "active" : ""}`
+              }>COMMUNITY</NavLink>
                     </li>
                    
                 </ul>

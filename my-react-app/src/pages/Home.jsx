@@ -53,10 +53,7 @@ function Home() {
               <PositionTitleOnly
               job_title="Scientist I, Formulation Chemistry"
               job_start="Jan. 2022"
-              job_end="Dec. 2024"
-              job_highlight_1="test"
-              job_highlight_2="test"
-              job_highlight_3="test">
+              job_end="Dec. 2024">
               </PositionTitleOnly>
             </Job>
             

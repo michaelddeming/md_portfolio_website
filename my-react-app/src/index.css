@@ -1,7 +1,6 @@
 
 body {
-  padding-left: 7%;
-  padding-right: 7%;
+  padding: 2em;
   color: black;
   background-color: hsl(44, 10%, 78%);
   font-family: Arial, Helvetica, sans-serif;
@@ -43,14 +42,38 @@ body {
   font-size: 25px;
 }
 
+.header-page.active {
+  color: rgb(97, 97, 97);
+}
 
+.header-page:hover, .header-title:hover {
+  color: rgb(97, 97, 97);
+}
 /* Content Main */
 
 .index-content-main {
   display: flex;
   flex-wrap: wrap;
+  gap: 2em;
+
   justify-content: space-between;
   font-size: 1.3em;
+}
+
+.index-content-left {
+  flex: 1 1 55%;
+  min-width: 300px;
+}
+
+.index-content-right {
+  flex: 1 1 35%;
+  min-width: 300px;
+}
+
+
+
+@media (max-width: 800px) {
+  
 }
 
 
@@ -58,7 +81,6 @@ body {
   display: flex;
   flex-direction: column;
   border: 1px solid hsl(0, 0, 80%);
-  padding: 20px;
   border-radius: 10px;
   box-shadow: 7px 7px 7px rgb(153, 153, 153);
   margin-bottom: 2em;
@@ -70,10 +92,17 @@ body {
 
 
 /* WORK EXPERIENCE AND EDUCATION */
-.work-experience, .education {
-  width: 800px;
-  margin: 25px;
+.work-experience, .education, .git-hub {
+  width: 90%;
+  padding: 25px;
 }
+
+.work-experience {
+  margin-bottom: 20px;
+}
+
+
+
 
 .job, .degree {
  padding-left: 1.5em;
@@ -89,6 +118,7 @@ body {
 
 
 /* GITHUB */
+
 .git-hub button {
   padding: 5px;
   border-radius: 5px;
@@ -97,6 +127,8 @@ body {
   font-size: 15px;
   width: 75px;
 }
+
+.git-hub h2 button 
 
 
 
@@ -108,6 +140,7 @@ body {
 
 .git-hub img {
   box-shadow: 7px 7px 7px rgb(153, 153, 153);
+  width: 95%;
 }
 
 /* ABOUT */
@@ -117,6 +150,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 2em;
 }
 
 .about-content-main p {
@@ -131,7 +165,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  gap: 20px 55px;
+  gap: 2em;
 
 }
 
@@ -142,6 +176,7 @@ body {
   justify-content: space-between;
   width: 450px;
   height: 500px;
+  padding: 2em;
 }
 
 .project-video {
@@ -246,9 +281,7 @@ button:hover {
   box-shadow: 0px 0px 10px rgb(46, 46, 46);
 }
 
-.header-page:hover, .header-title:hover {
-  color: rgb(97, 97, 97);
-}
+
 
 
 /* BLOG */
@@ -256,4 +289,5 @@ button:hover {
 .blog-post {
   display: flex;
   flex-direction: column;
+  padding: 2em;
 }

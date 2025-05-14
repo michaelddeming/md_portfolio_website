@@ -17,7 +17,7 @@ function YouTube(){
                 <p>Subscribe to my YouTube channel, where I livestream daily as I teach myself computer science and programming from the ground up!</p>
                 
                    
-                <button onClick={handleClick}>View Channel!</button>
+                <button onClick={handleClick}>Visit Channel!</button>
                 
                 
         </div>

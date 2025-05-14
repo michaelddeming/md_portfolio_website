@@ -9,8 +9,9 @@ function GitHub(){
 
     return(
         <div className="git-hub">
-            <h2>GITHUB</h2>
+            
             <div className="git-hub-btn-container" style={{display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
+                <h2>GITHUB</h2>
                 <button onClick={handleClick}>Visit Profile</button>
             </div>
             

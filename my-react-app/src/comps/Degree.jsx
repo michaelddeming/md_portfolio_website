@@ -3,9 +3,15 @@ function Degree(props){
     return (
         
         <div className="degree">
-            <div style={{display:"flex", alignItems:"center"}}>
-                <h3>{props.degree_title}</h3>, {props.degree_major}
-            </div>
+
+                    <div className="degree-sub">
+                    <h3>{props.degree_title}</h3>
+                    <p>{props.degree_major}</p>
+                    </div>
+                    
+               
+                
+     
            
            {props.children}
         </div>

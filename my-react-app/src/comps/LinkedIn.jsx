@@ -17,7 +17,7 @@ function LinkedIn(){
                 <p>Connect with me on LinkedIn to follow my journey into tech and self-taught computer science. Let's grow together.</p>
                 
                    
-                <button onClick={handleClick}>View Profile!</button>
+                <button onClick={handleClick}>Visit Profile!</button>
         </div>
         </>
     );
