@@ -163,6 +163,7 @@ body {
 .projects {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   align-items: center;
   justify-content: space-evenly;
   gap: 2em;
@@ -174,9 +175,10 @@ body {
   flex-direction: column;
   word-wrap: break-word;
   justify-content: space-between;
-  width: 450px;
-  height: 500px;
   padding: 2em;
+  max-width: 450px;
+  height: auto;
+  
 }
 
 .project-video {
