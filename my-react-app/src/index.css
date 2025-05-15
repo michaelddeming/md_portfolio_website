@@ -277,10 +277,32 @@ button:hover {
 
 /* BLOG */
 
+.blog {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  
+
+}
+
 .blog-post {
   display: flex;
   flex-direction: column;
-  padding: 2em;
+  
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+ 
+  width: 100%;
+  height: auto;
+  overflow-x: auto;
+  white-space: normal;
+  box-sizing: border-box;
+  padding: 1rem;
+  
 }
 
 
@@ -339,5 +361,9 @@ button:hover {
     background-color: #2EA44F;
     font-size: 12px;
     width: 50px;
+  }
+
+  .blog-post {
+    
   }
 }
