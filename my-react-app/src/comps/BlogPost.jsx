@@ -7,7 +7,7 @@ function BlogPost(props){
             <h2>{props.post_title}</h2>
             <p>{props.post_content}</p>
             <small>Posted: {props.post_date}</small>
-            <small style={{textAlign:"right"}}>#{props.post_id}</small>
+            <small>#{props.post_id}</small>
         </div>
         </>
     );
