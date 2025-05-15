@@ -1,9 +1,9 @@
 
 body {
-  padding: 2em;
   color: black;
   background-color: hsl(44, 10%, 78%);
   font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
 }
 
 /* HEADER */
@@ -49,52 +49,50 @@ body {
 .header-page:hover, .header-title:hover {
   color: rgb(97, 97, 97);
 }
+
+
+
+.card {
+  display: inline-flex;
+  flex-direction: column;
+  align-self: flex-start;
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px rgb(153, 153, 153);
+  background-color:hsl(48, 19%, 90%);
+
+
+}
+
 /* Content Main */
 
 .index-content-main {
   display: flex;
   flex-wrap: wrap;
-  gap: 2em;
-
   justify-content: space-between;
   font-size: 1.3em;
+  gap: 2em;
 }
 
 .index-content-left {
-  flex: 1 1 55%;
-  min-width: 300px;
-}
-
-.index-content-right {
-  flex: 1 1 35%;
-  min-width: 300px;
-}
-
-
-
-@media (max-width: 800px) {
+  flex: 1 1;
+  width: 60%;
   
 }
 
-
-.card {
+.index-content-right {
+  flex: 1 1;
+  width: 40%;
   display: flex;
   flex-direction: column;
-  border: 1px solid hsl(0, 0, 80%);
-  border-radius: 10px;
-  box-shadow: 7px 7px 7px rgb(153, 153, 153);
-  margin-bottom: 2em;
-  background-color:hsl(48, 19%, 90%);
-  justify-content: center;
-
+  gap: 2em;
 }
-
 
 
 /* WORK EXPERIENCE AND EDUCATION */
 .work-experience, .education, .git-hub {
-  width: 90%;
-  padding: 25px;
+  padding: 1rem;
+
+
 }
 
 .work-experience {
@@ -120,12 +118,13 @@ body {
 /* GITHUB */
 
 .git-hub button {
-  padding: 5px;
+  padding: 1px;
   border-radius: 5px;
   cursor: pointer;
   background-color: #2EA44F;
-  font-size: 15px;
-  width: 75px;
+  color: black;
+  font-size: 12px;
+  width: 50px;
 }
 
 .git-hub h2 button 
@@ -140,7 +139,8 @@ body {
 
 .git-hub img {
   box-shadow: 7px 7px 7px rgb(153, 153, 153);
-  width: 95%;
+  width: 100%;
+  border-radius: 10px;
 }
 
 /* ABOUT */
@@ -184,18 +184,7 @@ body {
   width: 100%;
 
 }
-@media (max-width: 800px) {
-    .project {
-      overflow: visible;
-      word-wrap: break-word;
-      word-break: break-word;
-      width: 400px;
-    }
-    .project-video {
-      width: 400px;
-    }
-    
-  }
+
 
 .community-main {
   display: flex;
@@ -290,4 +279,63 @@ button:hover {
   display: flex;
   flex-direction: column;
   padding: 2em;
+}
+
+
+@media (max-width: 1600px) {
+
+  /* HEADER */
+  .header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .header-title, .header-nav {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .header-nav {
+    justify-content: center;
+  }
+
+  .header-nav ul {
+    justify-content: center;
+    padding-left: 0;
+  }
+  /* ---------------------------- */
+
+  /* HOME */
+
+  .index-content-main {
+    flex-direction: column;
+  }
+
+  .index-content-left {
+    width: 100%;
+  }
+  .index-content-right {
+    width: 100%;
+  }
+
+  .job, .degree {
+ padding-left: 0.2em;
+}
+
+  .position, .degree-institution {
+    padding-left: 0.2em;
+  }
+
+  .position li, .degree-institution li {
+    margin: 5px;
+  }
+  .git-hub button {
+    padding: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2EA44F;
+    font-size: 12px;
+    width: 50px;
+  }
 }
