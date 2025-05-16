@@ -173,14 +173,34 @@ body {
 .project {
   display: flex;
   flex-direction: column;
-  word-wrap: break-word;
   justify-content: space-between;
+  word-wrap: break-word;
   padding: 2em;
   max-width: 450px;
   height: 500px;
-  
 }
 
+.project-top {
+  flex-direction: column;
+  gap: 0;
+  margin-top: 0;
+}
+.project-title {
+  margin-bottom: 0;
+}
+
+.project-languages {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.project-url {
+  margin-bottom: 1rem;
+}
+
+.project-release {
+  text-align: right;
+  ;
+}
 .project-video {
   aspect-ratio: 16/9;
   width: 100%;
