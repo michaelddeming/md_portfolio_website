@@ -2,7 +2,7 @@
 function GitHub(){
     const handleClick = () => {
         window.open('https://github.com/michaelddeming', '_blank');
-    }
+    } 
 
     
 
