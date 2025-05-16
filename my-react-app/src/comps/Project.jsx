@@ -9,16 +9,20 @@ function Project(props){
     return(
         <>
         <div className="project">
-            
-                <h2 style={{marginBottom:0}}>{props.project_title}</h2>
-                <small style={{marginTop:0}}>{props.project_languages}</small>
+            <div className="projects-top">
+                <h2 className="project-title">{props.project_title}</h2>
+                <small className="project-languages">{props.project_languages}</small>
+            </div>
+
+      
+                
                 <p className="project-desc">{props.project_desc}</p>
-                <a style={{marginBottom:"1rem"}} href={props.website_url}>{props.website_url}</a>
+                <a className="project-url" href={props.website_url}>{props.website_url}</a>
                 <iframe className="project-video"
                 src={props.project_demo_link}
                 width={560}
                 frameBorder={0}></iframe>
-                <small style={{marginTop:10, textAlign:"right"}}>{props.project_release_date}</small>
+                <small className="project-release">{props.project_release_date}</small>
         </div>
         </>
     );
