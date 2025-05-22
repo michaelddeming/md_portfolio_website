@@ -13,11 +13,8 @@ function Project(props){
                 <h2 className="project-title">{props.project_title}</h2>
                 <small className="project-languages">{props.project_languages}</small>
             </div>
-
-      
-                
                 <p className="project-desc">{props.project_desc}</p>
-                <a className="project-url" href={props.website_url}>{props.website_url}</a>
+                {props.website_url}
                 <iframe className="project-video"
                 src={props.project_demo_link}
                 width={560}

@@ -207,6 +207,11 @@ body {
 
 }
 
+.project-link {
+  text-decoration: none;
+  color: #078cda;
+  cursor: pointer;
+}
 
 .community-main {
   display: flex;
