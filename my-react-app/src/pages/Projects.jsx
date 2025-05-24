@@ -12,7 +12,7 @@ function Projects(){
             project_title="Professional Portfolio Website 👔"
             project_desc="A clean and responsive multi-page portfolio website for working professionals. Featuring a partial resume, personal blog, project showcase, and community sections."
             project_languages="React, HTML, CSS, JavaScript"
-            project_demo_link=""
+            project_demo_link="https://www.youtube.com/embed/YA1WadkxHhE"
             project_repo_link="https://github.com/michaelddeming/md_portfolio_website"
             website_url = {<a className="project-link" target="_blank" href="https://michaeldeming.com">Current Website</a>}
             project_release_date="© 2025"
