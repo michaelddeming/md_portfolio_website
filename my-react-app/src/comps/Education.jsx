@@ -1,15 +1,14 @@
-import Degree from "./Degree"
+import Degree from "./Degree";
 
-function Education(props){
-
-    return(
+function Education(props) {
+  return (
     <>
-    <div className="education">
+      <div className="education">
         <h2>EDUCATION</h2>
         {props.children}
-    </div>
+      </div>
     </>
-    );
+  );
 }
 
 export default Education;

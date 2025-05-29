@@ -1,10 +1,12 @@
 function PositionTitleOnly(props) {
-    return(
+  return (
     <div className="position">
-        <b>{props.job_title}</b> | <i>{props.job_start} - {props.job_end}</i>
-        
-</div>
-    );
+      <b>{props.job_title}</b> |{" "}
+      <i>
+        {props.job_start} - {props.job_end}
+      </i>
+    </div>
+  );
 }
 
 export default PositionTitleOnly;

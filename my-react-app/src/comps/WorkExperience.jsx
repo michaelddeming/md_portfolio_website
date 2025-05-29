@@ -1,15 +1,12 @@
-
-
-function WorkExperience(props){
-
-    return(
+function WorkExperience(props) {
+  return (
     <>
-    <div className="work-experience">
+      <div className="work-experience">
         <h2>EMPLOYMENT EXPERIENCE</h2>
         {props.children}
-    </div>
+      </div>
     </>
-    );
+  );
 }
 
 export default WorkExperience;
