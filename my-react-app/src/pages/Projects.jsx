@@ -42,11 +42,6 @@ function Projects(){
         <Card>
           <Project
             project_title="ChromaPlot: Paper Chromatography Simulator 🧪"
-            ></Project>
-            </Card>
-            <Card>
-            <Project
-            project_title="ChromaPlot: Paper Chromatography Simulator 📊"
             project_desc="ChromaPlot is a web-based tool for generating paper chromatography simulations of chemical compounds as animated GIFs."
             project_languages="Python (matplotlib, numpy), HTML, CSS, JavaScript"
             project_demo_link="https://www.youtube.com/embed/Nyiw-Q9lxpA?"
