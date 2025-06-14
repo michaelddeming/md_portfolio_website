@@ -9,6 +9,24 @@ function Projects() {
       <div className="projects">
         <Card>
           <Project
+function Projects(){
+    return(
+        <>
+        <Header></Header>
+        <div className="projects">
+            <Card>
+            <Project
+            project_title="SpectroSim: Chemical Spectroscopy Simulator 🧪"
+            project_desc="Visualize and simulate compound UV-Vis absorption spectra based on chemical parameters like λmax and εmax. Powered by a Gaussian distribution model in a Python FastAPI backend, integrated with PubChem API queries and custom result caching to support fast access to millions of compounds."
+            project_languages="React + Vite, HTML, CSS, JavaScript, Python (FastAPI), JSON"
+            project_demo_link=""
+            project_repo_link="https://github.com/michaelddeming/spectro-sim"
+            website_url = {<a className="project-link" target="_blank" href="https://spectrosim.com">Current Website</a>}
+            project_release_date="© 2025"
+            ></Project>
+            </Card>
+            <Card>
+            <Project
             project_title="Professional Portfolio Website 👔"
             project_desc="A clean and responsive multi-page portfolio website for working professionals. Featuring a partial resume, personal blog, project showcase, and community sections."
             project_languages="React, HTML, CSS, JavaScript"
@@ -29,6 +47,11 @@ function Projects() {
         <Card>
           <Project
             project_title="ChromaPlot: Paper Chromatography Simulator 🧪"
+            ></Project>
+            </Card>
+            <Card>
+            <Project
+            project_title="ChromaPlot: Paper Chromatography Simulator 📊"
             project_desc="ChromaPlot is a web-based tool for generating paper chromatography simulations of chemical compounds as animated GIFs."
             project_languages="Python (matplotlib, numpy), HTML, CSS, JavaScript"
             project_demo_link="https://www.youtube.com/embed/Nyiw-Q9lxpA?"
@@ -49,6 +72,9 @@ function Projects() {
         <Card>
           <Project
             project_title="Small Business Manager 📊"
+            <Card>
+                <Project
+            project_title="Small Business Manager 💼"
             project_desc="A comprehensive, easy-to-use business ledger tool for small businesses, designed to track inventory, expense, sales/returns, and annual finances through double-entry accounting practices."
             project_languages="Python (Tkinter), SQLite3, JSON"
             project_demo_link="https://www.youtube.com/embed/SHd532_LNY8"
