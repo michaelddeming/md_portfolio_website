@@ -2,18 +2,12 @@ import Header from "../comps/Header";
 import Project from "../comps/Project";
 import Card from "../comps/Card";
 
-function Projects() {
-  return (
-    <>
-      <Header></Header>
-      <div className="projects">
-        <Card>
-          <Project
 function Projects(){
     return(
         <>
         <Header></Header>
         <div className="projects">
+            
             <Card>
             <Project
             project_title="SpectroSim: Chemical Spectroscopy Simulator 🧪"
@@ -25,6 +19,7 @@ function Projects(){
             project_release_date="© 2025"
             ></Project>
             </Card>
+            
             <Card>
             <Project
             project_title="Professional Portfolio Website 👔"
@@ -72,9 +67,6 @@ function Projects(){
         <Card>
           <Project
             project_title="Small Business Manager 📊"
-            <Card>
-                <Project
-            project_title="Small Business Manager 💼"
             project_desc="A comprehensive, easy-to-use business ledger tool for small businesses, designed to track inventory, expense, sales/returns, and annual finances through double-entry accounting practices."
             project_languages="Python (Tkinter), SQLite3, JSON"
             project_demo_link="https://www.youtube.com/embed/SHd532_LNY8"
