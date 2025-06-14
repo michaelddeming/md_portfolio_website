@@ -17,7 +17,7 @@ function Projects(){
             <Card>
             <Project
             project_title="SpectroSim: Chemical Spectroscopy Simulator 🧪"
-            project_desc="Visualize and simulate compound UV-Vis absorption spectra based on chemical parameters like λmax and εmax. Powered by a Gaussian distribution model in a Python FastAPI backend, integrated with PubChem API queries and custom result caching to support fast access to millions of compounds."
+            project_desc="Visualize and simulate compound UV-Vis absorption spectra based on chemical parameters like λmax and εmax. Powered by a Gaussian distribution model in a Python FastAPI backend, integrated with PubChem API queries and custom result caching to support fast access to millions of compounds!"
             project_languages="React + Vite, HTML, CSS, JavaScript, Python (FastAPI), JSON"
             project_demo_link=""
             project_repo_link="https://github.com/michaelddeming/spectro-sim"
